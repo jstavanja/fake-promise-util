@@ -1,13 +1,13 @@
 {
-	"name": "unicorn-fun",
-	"version": "0.0.0",
-	"description": "My awesome module",
+	"name": "fake-promise-util",
+	"version": "0.0.1",
+	"description": "Util for simple promise simulation with optional delay.",
 	"license": "MIT",
-	"repository": "YOUR-GITHUB-USERNAME/unicorn-fun",
+	"repository": "jstavanja/fake-promise-util",
 	"author": {
-		"name": "YOUR NAME",
-		"email": "YOUR EMAIL",
-		"url": "YOUR WEBSITE"
+		"name": "Jaka Stavanja",
+		"email": "jakastavanja@gmail.como",
+		"url": "https://stavanja.xyz"
 	},
 	"engines": {
 		"node": ">=8"
@@ -19,12 +19,22 @@
 		"index.js"
 	],
 	"keywords": [
-		"unicorn",
-		"fun"
+		"fake",
+		"promise",
+		"util",
+		"quick",
+		"prototype",
+		"delay",
+		"simulation"
 	],
 	"dependencies": {},
 	"devDependencies": {
 		"ava": "^2.1.0",
 		"xo": "^0.24.0"
+	},
+	"xo": {
+		"rules": {
+			"promise/param-names": false
+		}
 	}
 }
