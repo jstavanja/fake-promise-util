@@ -42,7 +42,7 @@ try {
 ```
 
 ## API
-
+---
 ### success(returnValue?, delay?)
 
 #### returnValue?
@@ -60,6 +60,8 @@ Type: `number`
 Default: `0`
 
 An optional delay that you can use to simulate a real world promise scenario.
+
+---
 
 ### fail(errorMessage?, delay?)
 
