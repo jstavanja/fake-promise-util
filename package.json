@@ -1,6 +1,6 @@
 {
 	"name": "fake-promise-util",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "Util for simple promise simulation with optional delay.",
 	"license": "MIT",
 	"repository": "jstavanja/fake-promise-util",
@@ -16,7 +16,7 @@
 		"test": "xo && ava"
 	},
 	"files": [
-		"index.js"
+		"dist/index.js"
 	],
 	"keywords": [
 		"fake",
